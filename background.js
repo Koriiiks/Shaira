@@ -16,10 +16,10 @@ document.body.addEventListener("mousemove", (evt) => {
   function clickMo(){
     const mes = " U sure Doc Shaira? (Testing mo Cancel Sige ka)"
     if(confirm(mes)){
-        window.location.href = "index.html";
+        window.location.href = "flowers.html";
     } else {
         alert("Walang pollen to Doc so di ka ma-aallergy :)");
-        window.location.href = "index.html";
+        window.location.href = "flowers.html";
     }
   }
   
